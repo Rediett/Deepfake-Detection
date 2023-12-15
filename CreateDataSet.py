@@ -27,3 +27,5 @@ for i in dir_list:
                 image = Image.open(path+i+"/"+j).convert('L')
                 new_image = image.resize((100, 100))
                 new_image.save(path+i+"/"+j)
+
+
